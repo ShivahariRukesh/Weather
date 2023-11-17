@@ -1,0 +1,78 @@
+/* Reset some default styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.app-name {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.city-search {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: #ff0000;
+  font-size: 1.2rem;
+}
+
+.city-name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.icon-temp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  background-color: skyblue;
+
+  .deg {
+    font-size: 0.8rem;
+  }
+
+  img {
+    margin-right: 10px;
+  }
+}
+
+.des-wind {
+  font-size: 1rem;
+  margin-bottom: 20px;
+
+  p {
+    margin-bottom: 5px;
+  }
+}
